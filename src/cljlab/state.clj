@@ -227,7 +227,7 @@
 ;; @@
 
 ;; **
-;;; ### Agent Guarantees
+;;; ### Atom Guarantees
 ;;; 
 ;;; * Action occurs *asynchronously* on thread pool
 ;;; * Action called exactly once
@@ -255,7 +255,7 @@
 ;;; 
 ;;; ### Agents and Transactions 
 ;;; 
-;;; * Sends duringa transaction
+;;; * Sends during a transaction
 ;;; 	* An allowable side-effect
 ;;;     * Occur *after* transaction is committed
 ;;;     * Do not occur if transaction is aborted
